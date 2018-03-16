@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/.bin/jest",
+    "test-with-coverage": "node ./node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | node ./node_modules/.bin/codacy-coverage",
     "transpile": "node ./node_modules/.bin/babel src --out-dir dist"
   },
   "keywords": [
@@ -12,8 +13,8 @@
   ],
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Middlerun/addify.git"
+    "type": "git",
+    "url": "https://github.com/Middlerun/addify.git"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -22,5 +23,8 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "jest": "^23.0.0-alpha.0"
+  },
+  "dependencies": {
+    "codacy-coverage": "^2.1.0"
   }
 }

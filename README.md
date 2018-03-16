@@ -10,6 +10,7 @@
 Addition, the NPM way.
 
 [ ![Codeship Status for Middlerun/addify](https://app.codeship.com/projects/a2290c70-0b39-0136-afe4-3aeedc3a22e1/status?branch=master)](https://app.codeship.com/projects/281808)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/eccd6b8a749647babeb6c564b4eaf6cb)](https://www.codacy.com/app/Middlerun/addify)
 
 ## Installation
 
