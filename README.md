@@ -9,6 +9,8 @@
 
 Addition, the NPM way.
 
+[ ![Codeship Status for Middlerun/addify](https://app.codeship.com/projects/a2290c70-0b39-0136-afe4-3aeedc3a22e1/status?branch=master)](https://app.codeship.com/projects/281808)
+
 ## Installation
 
 ```
