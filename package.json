@@ -1,6 +1,6 @@
 {
   "name": "addify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Addition, the NPM way",
   "main": "index.js",
   "scripts": {
@@ -22,9 +22,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "codacy-coverage": "^2.1.0",
     "jest": "^23.0.0-alpha.0"
-  },
-  "dependencies": {
-    "codacy-coverage": "^2.1.0"
   }
 }
