@@ -1,6 +1,6 @@
 {
   "name": "addify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Addition, the NPM way",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,3 @@
-import addify from './dist/addify'
+const addify = require('./dist/addify');
 
-export default addify
+module.exports = addify;
